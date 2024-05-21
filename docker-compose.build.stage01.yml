@@ -15,9 +15,3 @@ services:
   cuda9.1-python3.6:
     build: ./cuda9.1-python3.6
     image: khulnasoft/python-machine-learning:cuda9.1-python3.6
-  cuda9.1-devel-python3.6:
-    build: ./cuda9.1-devel-python3.6
-    image: khulnasoft/python-machine-learning:cuda9.1-devel-python3.6
-  cuda9.1-cudnn7-devel-python3.6:
-    build: ./cuda9.1-cudnn7-devel-python3.6
-    image: khulnasoft/python-machine-learning:cuda9.1-cudnn7-devel-python3.6

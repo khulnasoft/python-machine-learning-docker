@@ -1,4 +1,4 @@
-FROM tiangolo/python-machine-learning:python3.6
+FROM khulnasoft/python-machine-learning:python3.6
 
 LABEL maintainer="KhulnaSoft DevOps <info@khulnasoft.com>"
 

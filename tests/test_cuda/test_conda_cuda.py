@@ -18,8 +18,6 @@ def verify_container(logs, python_version):
     [
         ("khulnasoft/python-machine-learning:cuda9.1-python3.6", "3.6"),
         ("khulnasoft/python-machine-learning:cuda9.1-python3.7", "3.7"),
-        ("khulnasoft/python-machine-learning:cuda9.1-devel-python3.6", "3.6"),
-        ("khulnasoft/python-machine-learning:cuda9.1-cudnn7-devel-python3.6", "3.6"),
     ],
 )
 def test_defaults(image, python_version):
