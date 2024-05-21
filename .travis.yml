@@ -1,0 +1,21 @@
+dist: xenial
+
+language: python
+
+python:
+  - "3.7"
+
+install:
+  - pip install docker pytest
+
+services:
+  - docker
+
+script:
+  - bash scripts/test.sh
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  on:
+    branch: master
