@@ -216,6 +216,28 @@ You can also run the CUDA (GPU) tests:
 bash scripts/test-cuda.sh
 ```
 
+## Release Notes
+
+### Next Release
+
+* Upgrade Travis. PR [#5](https://github.com/khulnasoft/python-machine-learning-docker/pull/5).
+
+* Add cuDNN version, to compile projects like [dlib](http://dlib.net/) that require the CUDA and cuDNN development toolkit. PR <a href="https://github.com/khulnasoft/python-machine-learning-docker/pull/4" target="_blank">#4</a>.
+
+* Add CUDA `devel` version, to compile projects like [dlib](http://dlib.net/) that require the CUDA development toolkit. PR <a href="https://github.com/khulnasoft/python-machine-learning-docker/pull/3" target="_blank">#3</a>.
+
+### 0.3.0
+
+* All images are now based on `buildpack-deps:latest` (or equivalent) as is the official image for Python. PR <a href="https://github.com/khulnasoft/python-machine-learning-docker/pull/2" target="_blank">#2</a>.
+
+### 0.2.0
+
+* Refactor image tags, remove `conda-` prefix to all images to simplify. PR <a href="https://github.com/khulnasoft/python-machine-learning-docker/pull/1" target="_blank">#1</a>.
+
+### 0.1.0
+
+* First release, including Conda, Python 3.7, Python 3.6, CUDA and TensorFlow.
+
 ## License
 
 This project is licensed under the terms of the MIT license.
